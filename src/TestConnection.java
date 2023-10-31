@@ -3,7 +3,9 @@
    DESCRIPTION    
    This code sample shows how to use JDBC and the OracleDataSource API to establish a
    connection to your database.
-   This is the recommended way to create connections to your database.
+   This is adapted from an official Oracle sample project
+   (https://github.com/oracle-samples/oracle-db-examples/blob/main/java/jdbc/ConnectionSamples/DataSourceSample.java)
+   to suit the needs of your CS174A project.
     
     Step 1: Download the Zipped JDBC driver (ojdbc11.jar) and Companion Jars from this
             link:
