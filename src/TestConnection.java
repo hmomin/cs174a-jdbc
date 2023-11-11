@@ -35,9 +35,10 @@ public class TestConnection {
     // <DATABASE_NAME_LOWERCASE> is your database name in lowercase
     // and
     // <PATH_TO_WALLET> is the path to the connection wallet on your machine.
-    final static String DB_URL = "jdbc:oracle:thin:@<INSERT_DB_NAME_HERE>_tp?TNS_ADMIN=C:/Users/momin/Downloads/Wallet_TADB";
+    // NOTE: on a Mac, there's no C: drive...
+    final static String DB_URL = "jdbc:oracle:thin:@dbname_tp?TNS_ADMIN=C:/Users/momin/Downloads/Wallet_dbname";
     final static String DB_USER = "ADMIN";
-    final static String DB_PASSWORD = "<INSERT_PASSWORD_HERE>";
+    final static String DB_PASSWORD = "password";
 
     // This method creates a database connection using
     // oracle.jdbc.pool.OracleDataSource.
